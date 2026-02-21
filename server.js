@@ -34,22 +34,22 @@ if (fs.existsSync(USERS_FILE)) {
   users = {
     'admin': {
       id: 'admin',
-      passwordHash: bcrypt.hashSync('beelee2024', 10),
+      passwordHash: bcrypt.hashSync('London42', 10),
       name: 'Admin User'
     },
-    'thomas': {
-      id: 'thomas',
-      passwordHash: bcrypt.hashSync('shopping123', 10),
+    'kasulerne': {
+      id: 'kasulerne',
+      passwordHash: bcrypt.hashSync('E7N4I1', 10),
       name: 'Thomas'
     },
-    'maria': {
-      id: 'maria',
-      passwordHash: bcrypt.hashSync('maria2024', 10),
+    'marianne': {
+      id: 'marianne',
+      passwordHash: bcrypt.hashSync('jyllinge4040', 10),
       name: 'Maria'
     },
     'family': {
       id: 'family',
-      passwordHash: bcrypt.hashSync('family2024', 10),
+      passwordHash: bcrypt.hashSync('Cleo271125', 10),
       name: 'Family Account'
     }
   };
